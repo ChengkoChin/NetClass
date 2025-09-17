@@ -1,0 +1,14 @@
+C:\Users\Chengko Austin Chin\source\repos\c#Hw1\c#Hw1\obj\Debug\net9.0\c#Hw1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chengko Austin Chin\source\repos\c#Hw1\c#Hw1\obj\Debug\net9.0\c#Hw1.AssemblyInfoInputs.cache
+C:\Users\Chengko Austin Chin\source\repos\c#Hw1\c#Hw1\obj\Debug\net9.0\c#Hw1.AssemblyInfo.cs
+C:\Users\Chengko Austin Chin\source\repos\c#Hw1\c#Hw1\obj\Debug\net9.0\c#Hw1.csproj.CoreCompileInputs.cache
+C:\Users\Chengko Austin Chin\source\repos\c#Hw1\c#Hw1\bin\Debug\net9.0\c#Hw1.exe
+C:\Users\Chengko Austin Chin\source\repos\c#Hw1\c#Hw1\bin\Debug\net9.0\c#Hw1.deps.json
+C:\Users\Chengko Austin Chin\source\repos\c#Hw1\c#Hw1\bin\Debug\net9.0\c#Hw1.runtimeconfig.json
+C:\Users\Chengko Austin Chin\source\repos\c#Hw1\c#Hw1\bin\Debug\net9.0\c#Hw1.dll
+C:\Users\Chengko Austin Chin\source\repos\c#Hw1\c#Hw1\bin\Debug\net9.0\c#Hw1.pdb
+C:\Users\Chengko Austin Chin\source\repos\c#Hw1\c#Hw1\obj\Debug\net9.0\c#Hw1.dll
+C:\Users\Chengko Austin Chin\source\repos\c#Hw1\c#Hw1\obj\Debug\net9.0\refint\c#Hw1.dll
+C:\Users\Chengko Austin Chin\source\repos\c#Hw1\c#Hw1\obj\Debug\net9.0\c#Hw1.pdb
+C:\Users\Chengko Austin Chin\source\repos\c#Hw1\c#Hw1\obj\Debug\net9.0\c#Hw1.genruntimeconfig.cache
+C:\Users\Chengko Austin Chin\source\repos\c#Hw1\c#Hw1\obj\Debug\net9.0\ref\c#Hw1.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2pYf3HRN6zg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Chengko Austin Chin\\source\\repos\\c#Hw1\\c#Hw1\\c#Hw1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Chengko Austin Chin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.9\\microsoft.netcore.app.host.win-x64.9.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
