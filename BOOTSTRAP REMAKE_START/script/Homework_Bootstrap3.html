@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--Link to access the icons in Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        .champion-color{
+            background-color: darkgoldenrod;
+            color:cornsilk;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg champion-color justify-content-center">
+            <a class="nav-link btn btn-primary" href="#">
+                <i class="bi bi-trophy"></i>
+                <strong>Chengko Austin Chin</strong>
+                <i class="bi bi-trophy"></i>
+            </a>
+        </nav>
+    </div>
+
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+            <!--Toggler-->
+            <button class="navbar-toggler mx-auto" role="button" data-bs-toggle="collapse" data-bs-target=#navbarCollapse>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <!--Collapse-->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <!--justify-content-evenly w-100 makes it possible to space out the items evenly-->
+                <ul class="navbar-nav justify-content-evenly w-100">
+                    <li class="nav-item"><a class="nav-link active" href="#">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">BLOG</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#">GALLERY</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="row mb-4">
+            <!--Home Panel-->
+            <div class="col-12 col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h4 class="card-title"><span style="color:blueviolet">Welcome to Home Page</span></h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+                <div class="card">                    
+                    <div class="card-body">
+                        <h4 class="card-title mb-4"><span style="color:blueviolet">Our Free Products</span></h4>
+
+                        <!--First product-->
+                        <div class="row mb-5">
+                            <div class="col-4">
+                                <!--First Image-->
+                                <!-- img-fluid rounded makes it responsive (needed)-->
+                                <img src="one.jpg" alt="oneProduct" class="img-fluid rounded">
+                            </div>
+                            <div class="col-8">
+                                <!--First Title and Text-->
+                                <h5 class="card-title">Title 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+
+                        <!--Second Product-->
+                        <div class="row mb-5">
+                            <div class="col-4">
+                                <!--Second Image-->
+                                <img src="two.jpg" alt="secondProduct" class="img-fluid rounded">
+                            </div>
+                            <div class="col-8">
+                                <!--Second Title and Text-->
+                                <h5 class="card-title">Title 2</h5>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+
+                        <!--Third Product-->
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="three.jpg" alt="thirdProduct" class="img-fluid rounded">
+                            </div>
+                            <div class="col-8">
+                                <h5 class="card-title">Title 3</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <!--First card on the right: NEWS-->
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h4 class="card-title m-3"><span style="color:blueviolet;">News</span></h4>
+                        <hr>
+                        <div class="hr">
+                            <p><strong>August 2</strong></p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <a href="#">See more...</a>
+                            <hr>
+                        </div>
+                        <div>
+                            <p><strong>August 3</strong></p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <a href="#">See more...</a>
+                            <hr>
+                        </div>
+                        <div>
+                            <p><strong>August 4</strong></p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <a href="#">See more...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Second card on the right: Message-->
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title"><span style="color: blueviolet;">Message</span></h4>
+                        <p>August 2</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#">See more...</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>         
+
+        <!--Footer-->
+        <footer class="bg-success text-white text-center p-2 mt-4">Placeholder</footer>
+    </div>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
